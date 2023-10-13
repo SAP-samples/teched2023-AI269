@@ -17,10 +17,8 @@ Get hands-on experience and learn how to combine business data with generative A
 ## Exercises
 
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
+
+- [Exercise 1 - Prompt Engineering](exercises/ex1/)
 
 
 **IMPORTANT**
