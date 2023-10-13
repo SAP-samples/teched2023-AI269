@@ -6,15 +6,20 @@ How to deploy an LLM model.
 How to use the model to execute different queries.
 
 
-# Introduction:
+## Introduction:
 
-## AICORE:
+### AICORE:
 
 SAP AI Core is a service designed to handle the execution and operations of your AI assets in a standardized, scalable, and hyperscaler-agnostic way. SAP AI Core supports full lifecycle management of your AI scenarios.
 
-## AI Launchpad
+### AI Launchpad
 
 SAP AI Launchpad is a multitenant software as a service (SaaS) application in SAP Business Technology Platform which is used to manage AI use cases (scenarios) across multiple instances of AI runtimes. AICORE is one such runtime.
+
+## Hands on steps
+AI Launchpad URL - https://teched-launchpad-demo.ai-launchpad.prodintern.eu-central-1.aws.apps.ml.hana.ondemand.com
+
+Click on the above link, you should be logged directly into the app. If prompted for credentials use the username and password details stored in the laptop you are accessing this hands on guide on (Home folder -> technical-users)
 
 For this workshop already connection to aicore is created from AI Launchpad.
 You can select existing connection named **llm-access** and then select **default** resource group.
@@ -23,7 +28,7 @@ You can select existing connection named **llm-access** and then select **defaul
 
 Once the resourceGroup is selected you can see the **mloperations** application is enabled from the side navigation
 
-## Deploying LLM models
+### 1. Deploying LLM models
 You can make LLMs available for use by creating an LLM deployment. You can do so once for each model and model version.
 
  - Check whether the foundation-models scenario is present in your workspace
@@ -53,7 +58,7 @@ Click next -> review -> create.
 
 
 
-## Creating a deployment
+### 2. Creating a deployment
 Once you created the configuration, click on create deployment.
 
 <left><img src="./images/ail06.png" alt="foundation-models" style="width: 800px;"/></left>
@@ -76,7 +81,7 @@ In Selected Model, you can see all the models that are deployed. Select the mode
 
 Now, you can prompt your queries and generate responses.
 
-## Querying the LLMs
+### 3. Querying the LLMs
 Give your prompt in the prompt field, and click on Run to get your output.
 
 We can set the following parameters here -
@@ -368,7 +373,7 @@ Customer review: ```So, they still had the 17 piece system on seasonal sale for 
 
 ```
 
-
+That's it. Hope you found this hands on session informative. To know more about SAP AICORE and AI Launchpad use the below references.
 
 ## Reference
 - You have an SAP AI Launchpad service instance and service key. For more information, see [SAP AI Core Initial Setup Documentation](http://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/initial-setup).
