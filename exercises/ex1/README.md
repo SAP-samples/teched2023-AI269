@@ -90,9 +90,11 @@ We can set the following parameters here -
 
 **Temperature**: What sampling temperature to use, between 0 and 2. Higher values will make the output more random, while lower values will make it more focused and deterministic.
 
-**Presence Penalty**: Introduces random sampling for generated tokens by randomly selecting the next token from the k most likely options. Set to 0.0 if repeatable output is desired.
+**Presence Penalty**: Fine-tune the models behaviour regarding the verbosity of responses
 
-**Frequency Penalty**: Introduces random sampling for generated tokens by randomly selecting the next token from the smallest possible set of tokens whose cumulative probability exceeds the probability top_p. Set to 0.0 if repeatable output is desired.
+**Frequency Penalty**: Fine-tune the models behaviour regarding the repetation of responses.
+
+
 
 Here in this demo we are going to try out show text expansion qualities of AI core, where we wrote a few sentences about AI core and asked the LLM model to write a 500 word blog post or paragraph based on the context it understands.
 
