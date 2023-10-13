@@ -24,7 +24,7 @@ SAP AI Launchpad is a multitenant software as a service (SaaS) application in SA
 For this workshop already connection to aicore is created from AI Launchpad.
 You can select existing connection named **llm-access** and then select **default** resource group.
 
-<left><img src="./images/ail14.png" alt="foundation-models" style="width: 800px;"/></left>
+<left><img src="./images/ail15.png" alt="foundation-models" style="width: 800px;"/></left>
 
 Once the resourceGroup is selected you can see the **mloperations** application is enabled from the side navigation
 
