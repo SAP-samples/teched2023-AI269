@@ -21,6 +21,13 @@ SAP AI Core is a service designed to handle the execution and operations of your
 
 SAP AI Launchpad is a multitenant software as a service (SaaS) application in SAP Business Technology Platform which is used to manage AI use cases (scenarios) across multiple instances of AI runtimes. AICORE is one such runtime.
 
+For this workshop already connection to aicore is created from AI Launchpad.
+You can select existing connection named **llm-access** and then select **default** resource group.
+
+<left><img src="./images/ail14.png" alt="foundation-models" style="width: 800px;"/></left>
+
+Once the resourceGroup is selected you can see the **mloperations** application is enabled from the side navigation
+
 ## Deploying LLM models
 You can make LLMs available for use by creating an LLM deployment. You can do so once for each model and model version.
 
