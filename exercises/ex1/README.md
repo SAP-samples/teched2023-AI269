@@ -1,44 +1,53 @@
-# Exercise 1 - Exercise 1 Description
+# Prompt Engineering
 
-In this exercise, we will create...
+Understand the principles of prompt engineering and learn to create effective prompts for AI models like ChatGPT. Prompt engineering is crucial for obtaining desired outputs from AI models. It helps in guiding the model's response in a particular direction.
+You will learn
+How to deploy an LLM model.
+How to use the model to execute different queries.
 
-## Exercise 1.1 Sub Exercise 1 Description
+## Prerequisites
+- You have an SAP AI Launchpad service instance and service key. For more information, see [SAP AI Core Initial Setup Documentation](http://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/initial-setup).
+- You’re using the sap-internal service plan.
+- Your SAP AI Launchpad is connected to the SAP AI Core runtime. For more information, see [Add a Connection to SAP AI Core in SAP AI Launchpad Documentation](http://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/add-connection-to-sap-ai-core)
+- You have the **genai_text** role collection.
 
-After completing these steps you will have created...
+# Introduction:
 
-1. Click here.
-<br>![](/exercises/ex1/images/01_01_0010.png)
+## AICORE:
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello World! | ). 
-```
+SAP AI Core is a service designed to handle the execution and operations of your AI assets in a standardized, scalable, and hyperscaler-agnostic way. SAP AI Core supports full lifecycle management of your AI scenarios.
 
+## AI Launchpad
 
+SAP AI Launchpad is a multitenant software as a service (SaaS) application in SAP Business Technology Platform which is used to manage AI use cases (scenarios) across multiple instances of AI runtimes. AICORE is one such runtime.
 
-## Exercise 1.2 Sub Exercise 2 Description
+## Deploying LLM models
+You can make LLMs available for use by creating an LLM deployment. You can do so once for each model and model version.
 
-After completing these steps you will have...
+ - Check whether the foundation-models scenario is present in your workspace
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
+<left><img src="./images/ail01.png" alt="foundation-models" style="width: 800px;"/></left>
 
-```
+- Creating a configuration
 
-2.	Click here.
-<br>![](/exercises/ex1/images/01_02_0010.png)
+<left><img src="./images/ail02.png" alt="foundation-models" style="width: 800px;"/></left>
+
+- Give a name for the configuration,
+- select the foundation-models scenario.
+- Choose the version and select azure-openai executable.
 
 
-## Summary
+<left><img src="./images/ail03.png" alt="foundation-models" style="width: 800px;"/></left>
 
-You've now ...
+In input parameters, give name and version of the model you want to use.
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+<left><img src="./images/ail04.png" alt="foundation-models" style="width: 800px;"/></left>
+
+These are the models available as of now:
+
+<left><img src="./images/ail05.png" alt="foundation-models" style="width: 800px;"/></left>
+
+Click next -> review -> create.
+
+
 
