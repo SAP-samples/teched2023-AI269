@@ -16,7 +16,8 @@ Get hands-on experience and learn how to combine business data with generative A
 
 ## Exercises
 
-
+In this exercise you will experience different prompt techniques within the AI Launhpad prompt editor. You will start with creating deployment for llm model, then same model can be used for prompting. Once the model deployment is created within the prompt editor you can modify the parameters like - temperature, Max Tokens before sending the prompt request.  
+Also explore prompt management feature where you can save your prompt, versioning and then you can compare the response for better fine tuning of the prompt.
 
 - [Exercise 1 - Prompt Engineering](exercises/ex1/)
 
