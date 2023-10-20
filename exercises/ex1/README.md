@@ -1,6 +1,6 @@
 # Prompt Engineering
 
-Enhance your understanding of prompt engineering and master the art of creating highly effective prompts for AI models. Prompt engineering plays a pivotal role in achieving desired outputs from AI models by effectively guiding their responses towards a specific direction. In this course, you will gain valuable insights on deploying an LLM model and learn how to utilize it to execute various queries with utmost precision and accuracy.
+Enhance your understanding of prompt engineering and master the art of creating highly effective prompts for AI models. Prompt engineering plays a pivotal role in achieving desired outputs from AI models by effectively guiding their responses towards a specific direction. In this exercises, you will gain valuable insights on deploying an LLM model and learn how to utilize it to execute various queries with utmost precision and accuracy.
 
 
 ## Introduction:
