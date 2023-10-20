@@ -47,8 +47,12 @@ In input parameters, give name and version of the model you want to use.
 <left><img src="./images/ail04.png" alt="foundation-models" style="width: 800px;"/></left>
 
 These are the models available as of now:
-
-<left><img src="./images/ail05.png" alt="foundation-models" style="width: 800px;"/></left>
+| 	Executable Id	 | 	Model Name	 | 	Version	 | 
+| 	:-----:	       | 	:-----:	    | 	:-----:	 | 
+| 	azure-openai	  | 	gpt-35-turbo| 	0613	    | 
+| 	azure-openai	  | 	gpt-35-turbo-16k| 	0613	    | 
+| 	azure-openai	  | 	gpt-4       | 	0613	    | 
+| 	azure-openai	  | 	gpt-4-32k      | 	0613	    | 
 
 Click next -> review -> create.
 
