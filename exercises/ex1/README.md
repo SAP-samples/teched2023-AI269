@@ -16,10 +16,9 @@ SAP AI Launchpad is a multitenant software as a service (SaaS) application in SA
 ## Hands on steps
 AI Launchpad URL - https://teched-launchpad-demo.ai-launchpad.prodintern.eu-central-1.aws.apps.ml.hana.ondemand.com
 
-Click on the above link, you should be logged directly into the app. If prompted for credentials use the username and password details stored in the laptop you are accessing this hands on guide on (Home folder -> technical-users)
+To access the app, simply click on the link provided above. You will be automatically logged in. In case you are prompted for credentials, please use the username and password details stored in the system you are using to access this hands-on guide. You can find these details in the Home folder under technical-users.
 
-For this workshop already connection to aicore is created from AI Launchpad.
-You can select existing connection named **llm-access** and then select **default** resource group.
+For this workshop, a connection to aicore has already been established through AI Launchpad. To proceed, choose the existing connection named **llm-access** and select the **default** resource group.
 
 <left><img src="./images/ail15.png" alt="foundation-models" style="width: 800px;"/></left>
 
