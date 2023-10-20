@@ -22,10 +22,10 @@ For this workshop, a connection to aicore has already been established through A
 
 <left><img src="./images/ail15.png" alt="foundation-models" style="width: 800px;"/></left>
 
-Once the resourceGroup is selected you can see the **mloperations** application is enabled from the side navigation
+After selecting the resourceGroup, you will be able to see the  **mloperations** application in the side navigation.
 
 ### 1. Deploying LLM models
-You can make LLMs available for use by creating an LLM deployment. You can do so once for each model and model version.
+To make LLMs accessible, you can create an LLM deployment for each model and its version.
 
  - Check whether the foundation-models scenario is present in your workspace
 
@@ -63,15 +63,15 @@ Set duration as standard and click review.
 
 <left><img src="./images/ail07.png" alt="foundation-models" style="width: 800px;"/></left>
 
-Once you create the deployment, wait for the current status to be set to RUNNING.
+After creating the deployment, please wait until the current status is set to RUNNING.
 
 <left><img src="./images/ail08.png" alt="foundation-models" style="width: 800px;"/></left>
 
-Once the deployment is running, go to Generative AI -> Prompt Editor
+To access the Prompt Editor, navigate to Generative AI once the deployment is up and running.
 
 <left><img src="./images/ail09.png" alt="foundation-models" style="width: 800px;"/></left>
 
-In Selected Model, you can see all the models that are deployed. Select the model that you want to use. Gpt-35-turbo will be selected as a default model.
+In the Selected Model section, you can find a comprehensive list of all the deployed models. Simply choose the model that suits your needs. By default, the gpt-35-turbo model will be pre-selected for you.
 
 <left><img src="./images/ail10.png" alt="foundation-models" style="width: 800px;"/></left>
 
@@ -102,25 +102,24 @@ SAP AI core is a platform for building AI applications. which can be used to tra
 
 
 <left><img src="./images/ail12.png" alt="foundation-models" style="width: 800px;"/></left>
-1. Once happy with response we can save the prompt using save button with the given name and collection.
-2. Using Create New we can create new prompt.
-3. Using select option we can select already saved prompt.
+1. To save the prompt, simply click on the save button and provide a name and collection for easy reference in the future.
+2. By utilizing the "Create New" feature, we can easily generate new prompts.
+3. By utilizing the select option, we can conveniently choose from a list of previously saved prompts.
 
 <left><img src="./images/ail13.png" alt="foundation-models" style="width: 800px;"/></left>
 
-Next lets see how we can manage the already saved prompts from prompt management page.
-Goto-> prompt management from side menu.
+Next, let's explore how we can effectively manage the prompts that have already been saved on the prompt management page. To do this, navigate to the Generative AI Hub and select the prompt management option from the side menu.
 
 <left><img src="./images/ail14.png" alt="foundation-models" style="width: 800px;"/></left>
 
 1. Filter the prompts
-2. Search and filter using - date, model, collection
-3. Mark/Unmark as Favourites 
-4. Create new prompt
-5. Delete selected prompt
+2. Search and filtering options, including date, model, and collection
+3. Allow users to mark/unmark prompts as favorites for easy access
+4. Enable users to create new prompts easily
+5. Provide the option to delete selected prompts for better organization
 
 
-Now you have experienced how you can use the prompt engineering feature from AI Launchpad. Here are some prompt techniques you can play around.
+Now that you have had the opportunity to explore the prompt engineering feature of AI Launchpad, let's delve into some exciting prompt techniques that you can experiment with.
 
 ## Text Summarization
 This example tasks the LLM with condensing and summarizing a given text. The text, clearly demarcated with triple backticks, is expected to be distilled into a concise summary of no more than 30 words. The focus is on extracting the most salient points and presenting them in a succinct manner, ensuring that the essence of the original content is retained without excessive verbosity. This format is designed to challenge the LLM’s capability to discern key details and convey them efficiently. For this demo we have taken 2 pages from SAP annual report 2 on Independent Assurance Practitioner’s Report by KPMG.
