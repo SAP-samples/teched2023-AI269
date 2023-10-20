@@ -8,7 +8,7 @@ This repository contains the material for the SAP TechEd 2023 session called AI2
 
 ## Overview
 
-Enhance your skills by gaining practical experience and mastering the art of merging business data with generative AI through the advanced SAP AI Core infrastructure using AI Launchpad. Scale up your prompt engineering capabilities and seamlessly integrate the outcomes into your existing workflows. Harness the potential of the latest features within SAP AI Core to elevate your generative AI-driven scenarios.
+Get hands-on experience and learn how to combine business data with generative AI within the SAP AI Core infrastructure using AI Launchpad. Perform prompt engineering at scale and integrate the results into your workflows. Leverage the power of the new capabilities within SAP AI Core to improve your generative AI-led scenarios.
 
 ## Requirements
 - AI Core 
