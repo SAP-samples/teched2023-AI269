@@ -21,10 +21,6 @@ Get hands-on experience and learn how to combine business data with generative A
 - [Exercise 1 - Prompt Engineering](exercises/ex1/)
 
 
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
-
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
 
