@@ -16,10 +16,23 @@ Get hands-on experience and learn how to combine business data with generative A
 
 ## Exercises
 
-In this exercise you will experience different prompt techniques within the AI Launhpad prompt editor. You will start with creating deployment for llm model, then same model can be used for prompting. Once the model deployment is created within the prompt editor you can modify the parameters like - temperature, Max Tokens before sending the prompt request.  
-Also explore prompt management feature where you can save your prompt, versioning and then you can compare the response for better fine tuning of the prompt.
+In this exercise, you will have the opportunity to explore various prompt techniques using the AI Launchpad prompt editor. The first step is to create a deployment for the llm model, which can then be used for prompting. Once the model deployment is set up within the prompt editor, you have the flexibility to modify parameters such as temperature and Max Tokens before sending the prompt request.
 
-- [Exercise 1 - Prompt Engineering](exercises/ex1/)
+Additionally, take advantage of the prompt management feature, which allows you to save your prompts and create versions. This feature enables you to compare responses and make adjustments for better fine-tuning of the prompt. By leveraging prompt management, you can optimize your prompts and enhance the overall performance of the model.
+
+Prompt techniques you will be experiencing are:
+- Text Summarization
+- Question Answering
+- Text Classification - Sentiment Analysis
+- Translation
+- Expansion
+- Tone adjustment
+- Spell-check / Grammar-check
+- Doing multiple tasks at once
+- Few-Shot Prompting
+- Zero-Shot prompting
+
+[Exercise 1 - Prompt Engineering](exercises/ex1/)
 
 
 ## Contributing
