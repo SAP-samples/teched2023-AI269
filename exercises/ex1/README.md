@@ -53,6 +53,8 @@ These are the models available as of now:
 | 	azure-openai	  | 	gpt-35-turbo-16k| 	0613	    | 
 | 	azure-openai	  | 	gpt-4       | 	0613	    | 
 | 	azure-openai	  | 	gpt-4-32k      | 	0613	    | 
+| 	aicore-opensource	  | 	tiiuae--falcon-40b-instruct      | 	null	    | 
+ 
 
 Click next -> review -> create.
 
