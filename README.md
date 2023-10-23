@@ -1,6 +1,6 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-AI269)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-AI269)
 
-# AI269 - Prompt Engineering with SAP Business AI
+# AI269 - Prompt Engineering with SAP Generative AI Hub
 
 ## Description
 
