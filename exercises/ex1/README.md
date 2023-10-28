@@ -127,6 +127,10 @@ Next, let's explore how we can effectively manage the prompts that have already 
 
 Now that you have had the opportunity to explore the prompt engineering feature of AI Launchpad, let's delve into some exciting prompt techniques that you can experiment with.
 
+### _Disclaimer:_
+
+_Please be aware that the application you are currently using is still under active development. As a result, it is possible that you may encounter certain issues or experience limitations during your workshop or usage of the system._
+
 ## Text Summarization
 This example tasks the LLM with condensing and summarizing a given text. The text, clearly demarcated with triple backticks, is expected to be distilled into a concise summary of no more than 30 words. The focus is on extracting the most salient points and presenting them in a succinct manner, ensuring that the essence of the original content is retained without excessive verbosity. This format is designed to challenge the LLM’s capability to discern key details and convey them efficiently. For this demo we have taken 2 pages from SAP annual report 2 on Independent Assurance Practitioner’s Report by KPMG.
 
