@@ -20,7 +20,7 @@ To access the app, simply click on the link provided above. You will be automati
 
 For this workshop, a connection to aicore has already been established through AI Launchpad. To proceed, choose the existing connection named **llm-access** and select the **default** resource group.
 
-<left><img src="./images/ail15.png" alt="foundation-models" style="width: 800px;"/></left>
+<left><img src="./images/ail01.png" alt="foundation-models" style="width: 800px;"/></left>
 
 After selecting the resourceGroup, you will be able to see the  **mloperations** application in the side navigation.
 
@@ -29,11 +29,11 @@ To make LLMs accessible, you can create an LLM deployment for each model and its
 
  - Check whether the foundation-models scenario is present in your workspace
 
-<left><img src="./images/ail01.png" alt="foundation-models" style="width: 800px;"/></left>
+<left><img src="./images/ail02.png" alt="foundation-models" style="width: 800px;"/></left>
 
 - Creating a configuration
 
-<left><img src="./images/ail02.png" alt="foundation-models" style="width: 800px;"/></left>
+<left><img src="./images/ail04.png" alt="foundation-models" style="width: 800px;"/></left>
 
 - Give a name for the configuration,
 - select the foundation-models scenario.
@@ -44,7 +44,7 @@ To make LLMs accessible, you can create an LLM deployment for each model and its
 
 In input parameters, give name and version of the model you want to use.
 
-<left><img src="./images/ail04.png" alt="foundation-models" style="width: 800px;"/></left>
+<left><img src="./images/ail05.png" alt="foundation-models" style="width: 800px;"/></left>
 
 These are the models available as of now:
 | 	Executable Id	 | 	Model Name	 | 	Version	 | 
@@ -67,19 +67,19 @@ Once you created the configuration, click on create deployment.
 
 Set duration as standard and click review.
 
-<left><img src="./images/ail07.png" alt="foundation-models" style="width: 800px;"/></left>
+<left><img src="./images/ail08.png" alt="foundation-models" style="width: 800px;"/></left>
 
 After creating the deployment, please wait until the current status is set to RUNNING.
 
-<left><img src="./images/ail08.png" alt="foundation-models" style="width: 800px;"/></left>
+<left><img src="./images/ail09.png" alt="foundation-models" style="width: 800px;"/></left>
 
 To access the Prompt Editor, navigate to Generative AI once the deployment is up and running.
 
-<left><img src="./images/ail09.png" alt="foundation-models" style="width: 800px;"/></left>
+<left><img src="./images/ail10.png" alt="foundation-models" style="width: 800px;"/></left>
 
 In the Selected Model section, you can find a comprehensive list of all the deployed models. Simply choose the model that suits your needs. By default, the gpt-35-turbo model will be pre-selected for you.
 
-<left><img src="./images/ail10.png" alt="foundation-models" style="width: 800px;"/></left>
+<left><img src="./images/ail11.png" alt="foundation-models" style="width: 800px;"/></left>
 
 Now, you can prompt your queries and generate responses.
 
