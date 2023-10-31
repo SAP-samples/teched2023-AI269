@@ -18,7 +18,7 @@ AI Launchpad URL - https://aif-int-eu-central-1-aws.ai-launchpad.int.eu-central-
 
 Click on the above link, you should be logged directly into the app. If prompted for credentials provide the username as DL_652F6D2C1B59E6028C215346@global.corp.sap and for password please check with the presenters.
 
-For this workshop, a connection to aicore has already been established through AI Launchpad. To proceed, choose the existing connection named **llm-access** and select the **default** resource group.
+For this workshop, a connection to aicore has already been established through AI Launchpad. To proceed, choose the existing connection named **teched-demo** and select the **teched-rg-<WorkstationNumber>** resource group.
 
 <left><img src="./images/ail01.png" alt="foundation-models" style="width: 800px;"/></left>
 
