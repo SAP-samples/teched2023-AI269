@@ -88,7 +88,7 @@ Give your prompt in the prompt field, and click on Run to get your output.
 
 We can set the following parameters here -
 
-**Max-Tokens**: The maximum number of tokens allowed for the generated answer.
+**Max-Tokens**: The maximum number of tokens allowed for the generated answer. **For this workshop set to 2300 to 2500**
 
 **Temperature**: What sampling temperature to use, between 0 and 2. Higher values will make the output more random, while lower values will make it more focused and deterministic.
 
